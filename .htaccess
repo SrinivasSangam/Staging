@@ -1,0 +1,52 @@
+# Use PHP54 as default
+AddHandler application/x-httpd-php54 .html
+<IfModule mod_suphp.c>
+    suPHP_ConfigPath /opt/php54/lib
+</IfModule>
+
+RewriteEngine On
+RewriteRule ^404/?$ /index.html
+ErrorDocument 404 /index.html
+
+
+Redirect 301 /project_program_management	 /services.html
+Redirect 301 /mobile_services	/services.html
+Redirect 301 /commercial		/industries/commercial.html
+Redirect 301 /Home		/index.html
+Redirect 301 /adobe_summit		/adobe_summit.html
+Redirect 301 /Locations		/contactus.html
+Redirect 301 /adobe_happyhour		/adobe-happyhour.html
+Redirect 301 /march_madness		/march-madness.html
+Redirect 301 /healthcare		/index.html
+Redirect 301 /AdvisoryBoard		/index.html
+Redirect 301 /DF16AMLunch	/index.html
+Redirect 301 /DF16FSCCocktails	/index.html
+Redirect 301 /DF16FSCLunch	/index.html
+Redirect 301 /innovation	/index.html
+Redirect 301 /LH_at_Dreamforce16	/index.html
+Redirect 301 /NY_CocktailParty	/NY_CocktailParty.html
+Redirect 301 /healthcare		/indistries/healthcare.html
+Redirect 301 /strategy		/services/strategy.html
+Redirect 301 /salesforce		/index.html
+Redirect 301 /strength_customer_exp		/strength_customer_exp.html
+Redirect 301 /strength_customer_innovation_webinar		/strength_customer_innovation_webinar.html
+Redirect 301 /personalization_individualized_exp		/personalization_individualized_exp.html
+Redirect 301 /personalization_ind_exp_webinar		/personalization_ind_exp_webinar.html
+Redirect 301 /blended_experiences		/blended_experiences.html
+Redirect 301 /Experience_Webinar_Recording		/Experience_Webinar_Recording.html
+Redirect 301 /JourneyMaps_ProcessMaps_Service		/JourneyMaps_ProcessMaps_Service.html
+Redirect 301 /SalesforceForAssetManagersWebinar		/SalesforceForAssetManagersWebinar.html
+Redirect 301 /Experience_Webinar_Recording		/Experience_Webinar_Recording.html
+Redirect 301 /ThePatientExperience		/ThePatientExperience.html
+Redirect 301 /patient_experience_webinar_video		/patient_experience_webinar_video.html
+Redirect 301 /fund_principles_experience_design    /fund_principles_experience_design.html
+Redirect 301 /emergence_newbreed_digital_integrator    /emergence_newbreed_digital_integrator.html
+Redirect 301 /mobile_dev_cross_platform_applications    /mobile_dev_cross_platform_applications.html
+Redirect 301 /calculate_crm_total_cost_ownership    /calculate_crm_total_cost_ownership.html
+Redirect 301 /What_Is_CustomerEngagement    /What_Is_CustomerEngagement.html
+Redirect 301 /digital_architecture_whitepaper    /digital_architecture_whitepaper.html
+Redirect 301 /winning_in_the_age_customer		/winning_in_the_age_customer.html
+Redirect 301 /how_pick_rightpartner_success		/how_pick_rightpartner_success.html
+Redirect 301 /morethan_a_timepiece		/morethan_a_timepiece.html
+Redirect 301 /sf_asset_managers_video		/sf_asset_managers_video.html
+Redirect 301 /EA_Webinar_Recording	/EA_Webinar_Recording.html
