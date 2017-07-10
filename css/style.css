@@ -62,6 +62,7 @@ p { font-size: 1.071em }
 .speaker-title{color:#1e407b; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size:18px}
 .event-title{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.714em; color: #1e407b}
 .event-title span{font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica;}
+.heading-research{color:#1e407b; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; line-height: 24px  }
 @media (max-width: 767px) {
     .navbar-wrapper-op .navbar-default .navbar-nav > li > a{overflow: auto;padding: 10px 20px; font-size: 16px} 
     .navbar-wrapper-op .navbar-default .navbar-nav > li > a:hover span,.navbar-wrapper-op .navbar-default .navbar-nav > li > a.active span{border-bottom: 0px;text-decoration: underline;}
@@ -723,7 +724,9 @@ a.fs-banking-title , a.fs-awm-title{color: #1e407b;}
 .successStories-Carousel:before { position: absolute; content: ""; background: url(../img/industries-casestudies-bg.png) no-repeat center center; top: 15%; width: 53.714em; height: 14.643em; background-size: contain; left: 5.3%; }
 /*Data-page*/
 .data-page-dstitle,.insights-page-dstitle,.research-page-dstitle{color:#179bd7;line-height: 35px}
-.data-page-dstitle img,.insights-page-dstitle img,.research-page-dstitle img{margin-right: 20px; height: 35px;}
+.data-page-dstitle img,.insights-page-dstitle img,.research-page-dstitle img{margin-right: 20px; height: 45px;}
+.research-page-dstitle h4{line-height: 10px!important; margin-bottom:-30px}
+.research-page-dstitle span{font-size: 14px;}
 /*Data-page*/
 @media (min-width: 1366px) {
 .s-successstories:before { left: 12% }
