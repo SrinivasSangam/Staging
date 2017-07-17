@@ -256,8 +256,8 @@ a.services-e2esupport-name h4.media-heading span{font-family: 'Lato-Black', Aria
 	.liquidlabs h4{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
 }
 @media(min-width: 768px){
-	.iaas-services {min-height: 220px; padding: 10px}
-	.iaas-services img{margin:0 auto;}
+	.iaas-services {min-height: 195px; padding: 10px}
+	.iaas-services img{margin:0 auto;width: 100px;}
 	.innova-head{color: #1e407b; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 24px; margin-bottom: 20px;}
 	.liquidlabs .media-object img{width: 100%; }
 }
@@ -265,7 +265,7 @@ a.services-e2esupport-name h4.media-heading span{font-family: 'Lato-Black', Aria
 	.liquidlabs .media-object img{width: 100%;}
 }
 @media(min-width: 1200px){	
-	.liquidlabs .media-object img{width: 150px; }
+	.liquidlabs .media-object img{width: 120px; }
 }
 
 /* #innovation-page */
