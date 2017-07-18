@@ -30,7 +30,7 @@ p { font-size: 1.071em }
 */
 
 .top-navbar,.top-navbar-op{margin-top: 10px}
-ul.top-nav,ul.top-nav-op{float: right;  list-style: none;  margin: 0;}
+ul.top-nav,ul.top-nav-op{float: right;  list-style: none;  margin: 0; margin-right:-10px}
 ul.top-nav li,ul.top-nav-op li{    display: inline-block;    margin: 0 20px;}
 ul.top-nav li:first-child,ul.top-nav-op li:first-child{margin-top: 5px}
 ul.top-nav li a,ul.top-nav-op li a{color: #fff; font-size: 20px}
