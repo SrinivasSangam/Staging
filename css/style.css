@@ -1348,7 +1348,7 @@ a.navbar-brand { width: 9em }
 .service-we-provide-intro-wrap .service-we-provide-intro a.btn { right: 10px; bottom: -70px }
 .services-list-wrap:before { width: 100%; left: -15px; }
 .services-list-wrap .services-list { padding-left: 35px; }
-.case-studies-content .solutionspage-casestudy.case-item-new{min-height: 280px}
+.case-studies-content .solutionspage-casestudy.case-item-new{min-height: 285px}
 }
 
 @media only screen and (min-width: 1024px) {
