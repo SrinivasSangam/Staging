@@ -95,6 +95,7 @@ ul.top-nav-op li a{color: #333}
 .event-title{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 1.714em; color: #1e407b}
 .event-title span{font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica;}
 .heading-research{color:#1e407b; font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; line-height: 24px  }
+.partners-sub{padding-right: 0px; margin:-10px 0px 30px 50px; font-size:130%}
 @media (max-width: 767px) {
 	.navbar-wrapper-op .navbar-default .navbar-nav > li > a{overflow: auto;padding: 10px 20px; font-size: 16px} 
 	.navbar-wrapper-op .navbar-default .navbar-nav > li > a:hover span,.navbar-wrapper-op .navbar-default .navbar-nav > li > a.active span{border-bottom: 0px;text-decoration: underline;}
@@ -163,7 +164,7 @@ ul.top-nav-op li a{color: #333}
 .navbar-material-blue .btn-link { color: #ffffff; }
 .navbar-material-blue .btn-link:hover, .navbar-material-blue .btn-link:focus { color: #ffffff; }
 .navbar-material-blue .btn-link[disabled]:hover, fieldset[disabled] .navbar-material-blue .btn-link:hover, .navbar-material-blue .btn-link[disabled]:focus, fieldset[disabled] .navbar-material-blue .btn-link:focus { color: #cccccc; }
-ul.custom-bullet { list-style: none; padding-left: 0px }
+ul.custom-bullet { list-style: none; padding-left: 0px!important }
 ul.custom-bullet li:before { font-family: 'FontAwesome'; content: "\f105"; position: absolute; left: 16px; list-style-type: none; color: #179bd7; font-size: 14px; font-weight: 600; }
 ul.custom-bullet li { padding-left: 20px; }
 ul.custom-bullet.liquidlabs-bullets li{position: relative; padding-left: 35px}
@@ -1572,7 +1573,7 @@ Services We Provide Styles
 .himss-header-banner { background: url('../img/banners/himss-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
 .optimize-your-specialty-network { background: url('../img/banners/5-ways-to-optimize-your-specialty-network.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
 .pick-the-right-partner-for-success-header-banner { background: url('../img/banners/pick-the-right-partner-for-success-header-banner.jpg') #179bd7 no-repeat center center; background-size: cover; height: 8.5em; }
-.data-head{color:#1e407b; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; padding-left:44px;}
+.data-head{color:#1e407b; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica; padding-left:44px; margin-bottom:0}
 .data-main-head{color:#1e407b; font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;     padding: 0 28px 20px 10px;}
 
 /* Solution We deliver Landing page */
