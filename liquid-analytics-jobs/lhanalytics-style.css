@@ -36,7 +36,7 @@ h2.section-title{color: #1e407b;font-family: 'Lato-Black', Arial, Gotham, Helvet
 @media only screen and (max-width: 767px){
 .registrationForm{margin-top: 35%;width: 320px}
 .registrationForm iframe{width: 340px;padding-left: 10px}
-.carousel,.carousel-inner,.carousel-inner .item{height: 560px}
+.carousel,.carousel-inner,.carousel-inner .item{height: 560px;}
 .carousel-caption {width: 341px;margin-left: 0%;padding: 0;margin-top: 20%}
 .carousel-caption.caption-left{margin-top: 10%}
 .carousel-caption h1 br{display: none;}    
