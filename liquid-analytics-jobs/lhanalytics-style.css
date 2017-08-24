@@ -1,14 +1,9 @@
-@import '../../fonts/lato/stylesheet.css';
-.carousel-caption h1{margin-bottom: 15px;}
+@import '../fonts/lato/stylesheet.css';
+body{margin: 0px;}
 p.caption-content{width: 350px; font-size: 20px; font-family: 'Lato-Regular', Arial, Gotham, Helvetica Neue, Helvetica; line-height: 28px;margin-bottom: 25px}
-.companyHighlights{border: 1px solid #ccc; padding: 10px;display: block;}
-.companyHighlights:hover{text-decoration: none; color: #333}
-/*.companyHighlights:hover img.featureIcon1{content: url('../img/icons/all-the-best-org-icon.png');height: 79px; width: 80px;}
-.companyHighlights:hover img.featureIcon2{content: url('../img/icons/horizon-org-icon.png');height: 79px; width: 80px;}
-.companyHighlights:hover img.featureIcon3{content: url('../img/icons/loyalty-org-icon.png');height: 79px; width: 80px;}
-.companyHighlights:hover img.featureIcon4{content: url('../img/icons/innovation-org-icon.png');height: 79px; width: 80px;}
-.companyHighlights:hover img.featureIcon5{content: url('../img/icons/excellence-org-icon.png');height: 79px; width: 80px;}
-.companyHighlights:hover img.featureIcon6{content: url('../img/icons/happy-family-org-icon.png');height: 79px; width: 80px;}*/
+.companyHighlights{border: 1px solid #ccc; padding: 10px;display: block;} 
+.companyHighlights p{font-family: 'Lato-Bold', Arial, Gotham, Helvetica Neue, Helvetica;}
+.companyHighlights:hover {text-decoration: none; color: #333}
 .companyRole{min-height: 400px; position: relative;margin-top: 90px; padding-top: 75px; padding-bottom: 75px}
 .companyRole:before,.companyRole:after{content: "";    position: absolute;    transition: all 0.8s;    z-index: -1;}
 .companyRole:before{height: 400px; width: 50%; top: 0; left: 0; background: #179bd7;}
@@ -16,38 +11,86 @@ p.caption-content{width: 350px; font-size: 20px; font-family: 'Lato-Regular', Ar
 .companyRole-colContent{padding: 20px;}
 .recruitmentFormArea{margin-top: 70px;}
 .recruitmentForm{width: 300px; margin:0 auto;}
-.carousel,.carousel-inner{height: 660px}
-.carousel-caption{margin-top: 10%; margin-left: 36%;}
-.registrationForm{ width: 340px; background: rgba(0,0,0,.5); min-height: 400px; position: absolute; margin-top: 12%; border: 1px solid #333;}
+.header-caption{width: 340px; position: absolute; margin-top: 15%;left: 35%;}
+.header-caption h1{ color: #fff; text-transform: #fff; font-size: 42px; text-transform: uppercase; line-height: 48px}
+.header-caption h1 span{font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica;}
+.registrationForm{ width: 340px; background: rgba(0,0,0,.5); min-height: 400px; position: absolute; margin-top: 10%; border: 1px solid #333; right: 15px;}
 .registrationForm iframe{border: 0px; min-height: 400px; width: 340px;padding-left: 20px; padding-top: 15px;}
+.navbar-wrapper{position: relative;}
+.navbar-wrapper .navbar-default{margin-top: 0px;padding-top: 10px}
 .navbar-wrapper .navbar-default .navbar-nav > li > a:hover span{border-bottom:0px}
 .navbar-wrapper .navbar-default .navbar-nav>li>a.navbar-toggle{padding:10px; }
 .navbar-wrapper .navbar-default .navbar-nav>li>a.navbar-toggle .icon-bar{background: #fff}
 h2.section-title{color: #1e407b;font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size: 2.43em; text-align: center; margin-bottom: 30px}
 .companyRole-colContent h2.section-title{color: #fff;font-family: 'Lato-Black', Arial, Gotham, Helvetica Neue, Helvetica; font-size:2.43em; text-align: center; margin-bottom: 30px}
+.companyRole-colContent h2.section-title.left{color: #fff;}
+.companyRole-colContent h2.section-title.right{color: #1e407b;}
+.companyRole-colContent ul li{font-size: 16px; line-height: 28px;}
+.companyRole-colContent ul li > ul { list-style-type: none; padding-left: 20px; }
+.companyRole-colContent ul li > ul li:before { content: '\2014'; position: absolute; margin-left: -20px; }
+.wide { width:100%; height:737px; background-image:url('../img/singapore-recruitment-banner.jpg'); background-size:cover; }
+.overlay { height: 737px; position: absolute; width: 100%; background: rgba(0,0,0,.5); }
+.companyRole-colContent.content-left ul li{color: #fff}
+
 @media only screen and (min-width: 1920px){
-.carousel,.carousel-inner{height: 660px}
+	.carousel,.carousel-inner{height: 800px}
+	.wide {height: 800px;}
+	.overlay { height: 800px;}
 }
 @media only screen and (min-width: 1280px){
-.carousel-caption h1, .carousel-caption .lead { font-size: 38px;}
+	.header-caption { font-size: 38px; left: 6%;}
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.header-caption{left: 6%;}
 }
 @media only screen and (max-width: 767px){
-.registrationForm{margin-top: 35%;width: 320px}
-.registrationForm iframe{width: 340px;padding-left: 10px}
-.carousel,.carousel-inner,.carousel-inner .item{height: 560px;}
-.carousel-caption {width: 341px;margin-left: 0%;padding: 0;margin-top: 20%}
-.carousel-caption.caption-left{margin-top: 10%}
-.carousel-caption h1 br{display: none;}    
-h2.section-title{font-size: 1.8em;}
-.companyHighlights{margin-bottom: 20px}
-.companyRole{padding-top: 0px}
-.companyRole:before{height: 300px; width: 100%; top: 0; left: 0; background: #179bd7;}
-.companyRole:after{height: 300px; width: 100%; top: 300px; right: 0; background: #99d8f3;}
-.companyRole-colContent h2.section-title{font-size: 1.8em;}
+    .carousel-inner{height: 520px}
+    .carousel-caption h1{font-size: 20px;line-height: 24px}
+    .carousel-caption .btn{font-size: 14px; width: 100px}
+    .carousel-indicators{left:25px;}
+    .carousel-caption h1{margin-bottom: 20px}	
+	.carousel,.carousel-inner,.carousel-inner .item{height: 580px;}
+	.carousel-caption {width: 341px;margin-left: 0%;padding: 0;margin-top: 20%}
+	.carousel-caption.caption-left{margin-top: 10%}
+	.carousel-caption h1 br{display: none;}    
+	.registrationForm{margin-top: 42%;width: 320px}
+	.registrationForm iframe{width: 340px;padding-left: 10px}
+	.header-caption{left: 6%}
+	.header-caption h1 { font-size: 28px; line-height: 32px; }
+	h2.section-title{font-size: 1.8em;}
+	.companyHighlights{margin-bottom: 20px}
+	.companyRole{padding-top: 0px; color:#333;}
+	.companyRole:before{height: 330px; width: 100%; top: 0; left: 0; background: #149bd7;}
+	.companyRole:after{height: 280px; width: 100%; top: 300px; right: 0; background: #99d8f3;}
+	.companyRole-colContent{color: #333;padding: 0px; position: relative;}
+	.companyRole-colContent h2.section-title{font-size: 1.8em; color: #333; margin-top: 20px;}
+	.companyRole-colContent.content-left{padding-top: 10px; color: #fff;}
+	.companyRole-colContent.content-right{margin-top: 60px;}
+	.companyRole-colContent.content-left ul li > ul{padding-left: 15px;}
+	.registrationForm{right: 20px;}
+	.companyRole-colContent ul li{font-size: 14px; line-height: 24px;}
+}
+@media only screen and (max-width: 767px) and (orientation: landscape){
+	.header-caption{left: 20px; margin-top: 5%;}
+	.header-caption h1 br{display: none}
+	.registrationForm{margin-top: 20%; left: 20px;}
+	.footer .footer-links, .footer .footer-address{width: 100%}
+}
+@media only screen and (max-width: 767px) and (orientation: landscape){
+
+}
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+	.carousel-caption h1 { font-size: 24px !important; line-height: 32px !important; text-align: center; }
 }
 
+@media only screen and (min-width: 320px) and (max-width: 640px) and (orientation: landscape){
+	.header-caption{left: 20px; margin-top: 5%; width: 95%}
+	.header-caption h1 { font-size: 28px; line-height: 32px; }
+	.header-caption h1 br{display: none}
+	.registrationForm{margin-top: 15%; left: 20px;}
+	.companyRole-colContent.content-right { margin-top: 120px; }
+
+}
 @media only screen and (min-width: 320px) and (max-width: 360px) {
-.carousel-caption.caption-left{margin-top: 25%!important;}
+	.carousel-caption.caption-left{margin-top: 25%!important;}
 }

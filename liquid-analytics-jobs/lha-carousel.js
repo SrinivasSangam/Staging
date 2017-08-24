@@ -58,10 +58,10 @@ setTimeout(function(){$('#dvLoading').fadeOut();}, 2000);
             $(".carousel-indicators").css({"top": 250+"px"});  
           }
           if ($(this).width() < 737 ) {
-            $(".carousel-inner").css({"width": "auto", "height": 560+"px","margin-bottom": 30+"px"});
-            $(".carousel-inner .item").css({"width": "auto", "height": 560+"px","margin-bottom": 30+"px"});
+            $(".carousel-inner").css({"width": "auto", "height": 580+"px","margin-bottom": 30+"px"});
+            $(".carousel-inner .item").css({"width": "auto", "height": 580+"px","margin-bottom": 30+"px"});
             //$(".carousel-inner > .item > img").css({"display": "none"});
-			$(".carousel-inner > .item > img").css({"width": "auto", "height": 560+"px","margin-bottom": 30+"px"});
+			       $(".carousel-inner > .item > img").css({"width": "auto", "height": 580+"px","margin-bottom": 30+"px"});
             $(".carousel-inner > .first-item").css({"background": "url('img/homepage-img1.jpg') center center","background-size": "cover"});
             $(".carousel-inner > .second-item").css({"background": "url('img/homepage-img2.jpg') center center","background-size": "cover"});
             $(".carousel-inner > .third-item").css({"background": "url('img/homepage-img3.jpg') center center","background-size": "cover"});
